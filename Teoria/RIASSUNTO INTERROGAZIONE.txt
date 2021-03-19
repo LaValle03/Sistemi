@@ -1,0 +1,18 @@
+ISO/OSI
+FISICO: trasmissione di bit sul canale fisico
+DATA LINK: trasforma la linea fisica in una linea in cui gli errori di trasmissione vengono sempre segnalati, divide le informazioni in pacchetti, gestisce la duplicazione dei frame, sincronizza un mittente veloce con un ricevente lento, gestise l'accesso al canale di trasmissione
+NETWORK: controlla il flusso di pacchetti, gestisce la congestione della rete, sceglie l'interfaccia necessaria alla comunicazione di reti
+TRANSPORT: accetta dati dal livello superiore, li spezza in parti più piccole e le trasmette, con un servizio privo di errori e ordine corretto, gestisce l'invio di messaggi a più destinatari
+SESSION: controlla il dialogo tra due macchine (simplex, duplex), gestisce la sincronizzazione del trasferimento dei dati
+PRESENTATION: traduzione dei dati che viaggiano sulla rete
+APPLICATION: sceglie quali dati trasmettere, quando trasmetteri, a chi, il significato di byte
+
+TCP/IP
+APPLICAZIONE (messaggi o flussi): i programmi si collegano con i protocolli per inviare o ricevere dati, il programma sceglie come inviare i dati
+TRASPORTO (pacchetti del protocollo di trasporto): fornisce la comunicazione da un programma ad un altro, regola il flusso dei dati, divide i dati in pacchetti, fornisce un trasporto di dati affidabili (senza errori e con sequenza corretta)
+INTERNET (datagrammi IP): gestisce la comunicazione tra macchina e macchina, accetta richieste di invio di pacchetti, compila l'intestazione del datagramma IP, stabilisce la corretta interfaccia di rete per la trasmissione, controlla la validità dei datagrammi ricevuti, decide se i datagrammi devono essere inoltrati a un'altra macchina o elaborati in locale, per questi cancella l'intestazione.
+INTERFACCIA DI RETE (frame della rete): accetta i datagrammi IP e la loro trasmissione.
+
+SISTEMA DI CONTROLLO DELLA VERSIONE: traccia la storia dei cambiamenti di un progetto, ogni sviluppatore può sapere quali modifiche sono state fatte, chi le ha fatte, quando e perchè
+
+SISTEMA DI CONTROLLO DELLA VERSIONE DISTRIBUITO (GitHub) è utilizzato per lo sviluppo di software. La storia di ogni file corrisponde ad una sequenza di snapshot nel tempo chiate COMMIT. Nel caso in cui ci siano più storie per un file, ogni storia è detta branch.

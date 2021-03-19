@@ -1,0 +1,12 @@
+RETI NELLA SHELL
+Con il comando "ipconfig /all" stampa informazioni riguardanti impostazioni di rete del pc.
+
+Nome host: nome del pc sulla rete
+Indirizzo fisico: composto da 6 byte (48 bit), è unico nel mondo
+DHCP: protocollo che configura la scheda di rete per la connessione internet
+Indirizzo IPv4: Identifica il pc all'interno della rete. E' formato da 4 numeri che vanno da 0 a 255.
+Subnet Mask: Composto da 4 numeri che vanno da 0 a 255. Descrive se i gruppi dei numeri dell'ip sono fissi oppure variabili
+Lease ottenuto: Data di connessione del pc alla rete, il DHCP configura la scheda di rete
+Scadenza lease: Data di scadenza della connessione, dopo la scadenza cambia l'indirizzo ip. La rete e' dinamica, cioè gli ip cambiamo.
+Gateway predefinito: Indirizzo ip del router che permette l'accesso del pc alle reti esterne (internet).
+Ping: messaggio che arriva a un altro pc collegato alla stessa rete
